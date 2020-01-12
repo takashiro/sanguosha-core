@@ -2,7 +2,7 @@
   "name": "@karuta/sanguosha-core",
   "version": "0.1.0",
   "description": "Core modules of Sanguosha Extension",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "eslint --ext .ts ."
   },
