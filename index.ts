@@ -24,6 +24,8 @@ export {
 	Type as SkillType,
 } from './lib/Skill';
 
+export { default as Command } from './lib/Command';
+
 export { default as Gender } from './lib/Gender';
 
 export { default as General } from './lib/General';
