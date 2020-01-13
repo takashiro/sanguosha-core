@@ -1,5 +1,5 @@
 
-enum Type {
+const enum Type {
 	Invalid,
 
 	Trigger,

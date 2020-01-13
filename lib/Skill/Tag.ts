@@ -1,5 +1,5 @@
 
-enum Tag {
+const enum Tag {
 	Invalid,
 
 	Frequent,

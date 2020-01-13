@@ -1,5 +1,5 @@
 
-enum Kingdom {
+const enum Kingdom {
 	Unknown,
 
 	Wei,

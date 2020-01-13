@@ -1,5 +1,5 @@
 
-enum Phase {
+const enum Phase {
 	Inactive,
 
 	Start,

@@ -1,5 +1,5 @@
 
-enum Suit {
+const enum Suit {
 	None,
 
 	Spade,

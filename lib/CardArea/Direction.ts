@@ -1,5 +1,5 @@
 
-enum Direction {
+const enum Direction {
 	Undefined,
 
 	Top,

@@ -1,5 +1,5 @@
 
-enum Command {
+const enum Command {
 	Invalid,
 
 	StartGame,

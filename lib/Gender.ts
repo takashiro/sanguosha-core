@@ -1,5 +1,5 @@
 
-enum Gender {
+const enum Gender {
 	Unknown,
 
 	Male,
