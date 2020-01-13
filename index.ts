@@ -26,6 +26,8 @@ export {
 
 export { default as Command } from './lib/Command';
 
+export { default as DamageType } from './lib/DamageType';
+
 export { default as Gender } from './lib/Gender';
 
 export { default as General } from './lib/General';
