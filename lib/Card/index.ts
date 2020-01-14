@@ -40,6 +40,14 @@ abstract class Card {
 	}
 
 	/**
+	 * Set card id
+	 * @param id card id
+	 */
+	setId(id: number): void {
+		this.id = id;
+	}
+
+	/**
 	 * @return Card name
 	 */
 	getName(): string {
