@@ -3,6 +3,13 @@ import Suit from './Suit';
 import Color from './Color';
 import Type from './Type';
 
+interface CardMeta {
+	id: number;
+	name: string;
+	suit: number;
+	number: number;
+}
+
 function convertSuitToColor(suit: Suit): Color {
 	if (suit === Suit.Spade || suit === Suit.Club) {
 		return Color.Black;
@@ -90,7 +97,7 @@ abstract class Card {
 	/**
 	 * Convert this card to JSON
 	 */
-	toJSON(): object {
+	toJSON(): CardMeta {
 		return {
 			id: this.id,
 			name: this.name,
