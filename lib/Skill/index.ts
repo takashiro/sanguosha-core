@@ -3,20 +3,18 @@ import Tag from './Tag';
 import Type from './Type';
 
 class Skill {
-	static Tag = Tag;
+	protected name: string;
 
-	static Type = Type;
+	protected type: Type;
 
-	name: string;
+	protected tags: Set<Tag>;
 
-	tags: Set<string>;
+	protected children: Skill[];
 
-	children: Skill[];
-
-	constructor(name: string, tags: string[] = []) {
+	constructor(name: string, tags: Tag[] = []) {
 		this.name = name;
+		this.type = Type.Invalid;
 		this.tags = new Set(tags);
-
 		this.children = [];
 	}
 
@@ -24,11 +22,11 @@ class Skill {
 		return this.name;
 	}
 
-	getTags(): Set<string> {
+	getTags(): Set<Tag> {
 		return this.tags;
 	}
 
-	hasTag(tag: string): boolean {
+	hasTag(tag: Tag): boolean {
 		return this.tags.has(tag);
 	}
 

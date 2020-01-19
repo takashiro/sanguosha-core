@@ -2,9 +2,8 @@
 const enum Type {
 	Invalid,
 
-	Trigger,
-	ViewAs,
-	CardMod,
+	Passive,
+	Active,
 }
 
 export default Type;
