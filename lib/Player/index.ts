@@ -20,9 +20,9 @@ class Player {
 
 	protected kingdom: Kingdom;
 
-	protected headGeneral: General;
+	protected headGeneral: General | null;
 
-	protected deputyGeneral: General;
+	protected deputyGeneral: General | null;
 
 	protected attackRange: number;
 
@@ -123,23 +123,23 @@ class Player {
 		this.kingdom = kingdom;
 	}
 
-	getGeneral(): General {
+	getGeneral(): General | null {
 		return this.headGeneral;
 	}
 
-	setGeneral(general: General): void {
+	setGeneral(general: General | null): void {
 		this.headGeneral = general;
 	}
 
-	getHeadGeneral(): General {
+	getHeadGeneral(): General | null {
 		return this.headGeneral;
 	}
 
-	setHeadGeneral(general: General): void {
+	setHeadGeneral(general: General | null): void {
 		this.headGeneral = general;
 	}
 
-	getDeputyGeneral(): General {
+	getDeputyGeneral(): General | null {
 		return this.deputyGeneral;
 	}
 

@@ -16,7 +16,7 @@ type SearchCondition = (card: Card) => boolean;
 class CardArea {
 	type: Type;
 
-	owner: Player;
+	owner: Player | null;
 
 	name: string;
 
@@ -27,7 +27,7 @@ class CardArea {
 	 * @param owner
 	 * @param name
 	 */
-	constructor(type: Type, owner: Player = null, name = '') {
+	constructor(type: Type, owner: Player | null = null, name = '') {
 		this.type = type;
 		this.owner = owner;
 		this.name = name;
@@ -88,7 +88,7 @@ class CardArea {
 	/**
 	 * @return First card
 	 */
-	first(): Card {
+	first(): Card | undefined {
 		return this.cards[0];
 	}
 
@@ -96,7 +96,7 @@ class CardArea {
 	 * Get the first card and remove it from this area
 	 * @return {Card}
 	 */
-	takeFirst(): Card {
+	takeFirst(): Card | undefined {
 		return this.cards.shift();
 	}
 
@@ -118,7 +118,7 @@ class CardArea {
 	/**
 	 * Get the last card and remove it from this area
 	 */
-	takeLast(): Card {
+	takeLast(): Card | undefined {
 		return this.cards.pop();
 	}
 
@@ -142,7 +142,7 @@ class CardArea {
 	 * Find a card that matches condition
 	 * @param condition
 	 */
-	find(condition: SearchCondition): Card {
+	find(condition: SearchCondition): Card | undefined {
 		return this.cards.find(condition);
 	}
 
