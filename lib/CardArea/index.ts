@@ -14,13 +14,13 @@ interface CardAreaProfile {
 type SearchCondition = (card: Card) => boolean;
 
 class CardArea {
-	type: Type;
+	protected type: Type;
 
-	owner: Player | null;
+	protected owner: Player | null;
 
-	name: string;
+	protected name: string;
 
-	cards: Card[];
+	protected cards: Card[];
 
 	/**
 	 * @param type
@@ -33,6 +33,27 @@ class CardArea {
 		this.name = name;
 
 		this.cards = [];
+	}
+
+	/**
+	 * Gets card area type
+	 */
+	getType(): Type {
+		return this.type;
+	}
+
+	/**
+	 * Gets area owner
+	 */
+	getOwner(): Player | null {
+		return this.owner;
+	}
+
+	/**
+	 * Gets area name
+	 */
+	getName(): string {
+		return this.name;
 	}
 
 	/**
