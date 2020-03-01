@@ -5,7 +5,9 @@
 		"target": "es6",
 		"sourceMap": true,
 		"moduleResolution": "node",
-		"strict": true
+		"esModuleInterop": true,
+		"strict": true,
+		"allowJs": true
 	},
 	"include": [
 		"lib/**/*.ts"

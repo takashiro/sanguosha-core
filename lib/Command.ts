@@ -12,6 +12,6 @@ const enum Command {
 	Play,
 	ChoosePlayer,
 	UseCard,
-};
+}
 
 export default Command;
