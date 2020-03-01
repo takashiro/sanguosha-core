@@ -24,6 +24,11 @@ export {
 	Type as SkillType,
 } from './lib/Skill';
 
+export {
+	default as SkillArea,
+	Type as SkillAreaType,
+} from './lib/SkillArea';
+
 export { default as Command } from './lib/Command';
 
 export { default as DamageType } from './lib/DamageType';
