@@ -176,6 +176,14 @@ class CardArea {
 	}
 
 	/**
+	 * Set cards into the area
+	 * @param cards card list
+	 */
+	setCards(cards: Card[]): void {
+		this.cards = cards;
+	}
+
+	/**
 	 * @return All cards in this area
 	 */
 	getCards(): Card[] {
