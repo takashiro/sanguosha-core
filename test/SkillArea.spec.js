@@ -25,7 +25,7 @@ describe('SkillArea', () => {
 		expect(area.add(skill1)).toBe(false);
 	});
 
-	it('removes skill 1', function () {
+	it('removes skill 1', () => {
 		expect(area.has(skill1)).toBe(true);
 
 		area.remove(skill1);
