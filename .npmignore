@@ -1,0 +1,6 @@
+/.vscode
+/build/
+/test/
+/.eslintrc.json
+/.gitignore
+/jest.config.js
