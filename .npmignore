@@ -1,6 +1,9 @@
 /.vscode
 /build/
+/lib/
 /test/
-/.eslintrc.json
-/.gitignore
 /jest.config.js
+/webpack.config.js
+.eslintignore
+.eslintrc.json
+.gitignore

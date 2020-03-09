@@ -5,17 +5,12 @@
 		"node": true
 	},
 	"extends": [
-		"airbnb-base",
-		"plugin:@typescript-eslint/recommended"
+		"airbnb-base"
 	],
 	"globals": {
 		"Atomics": "readonly",
 		"SharedArrayBuffer": "readonly"
 	},
-	"parser": "@typescript-eslint/parser",
-	"plugins": [
-		"@typescript-eslint"
-	],
 	"rules": {
 		"class-methods-use-this": "off",
 		"indent": [
