@@ -1,5 +1,5 @@
 
-const enum Role {
+enum Role {
 	Invalid,
 
 	Emperor,

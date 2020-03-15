@@ -1,5 +1,5 @@
 
-const enum Type {
+enum Type {
 	Invalid,
 
 	Basic,

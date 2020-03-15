@@ -1,5 +1,5 @@
 
-const enum Color {
+enum Color {
 	None,
 
 	Red,
