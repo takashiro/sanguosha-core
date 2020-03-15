@@ -1,10 +1,6 @@
 import Gender from './Gender';
 import Kingdom from './Kingdom';
-
-interface GeneralPofile {
-	kingdom: number;
-	name: string;
-}
+import GeneralPofile from './GeneralProfile';
 
 class General {
 	protected id: number;
@@ -105,6 +101,7 @@ class General {
 
 	toJSON(): GeneralPofile {
 		return {
+			id: this.getId(),
 			kingdom: this.getKingdom(),
 			name: this.getName(),
 		};
