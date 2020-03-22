@@ -216,5 +216,6 @@ class CardArea {
 
 export { default as Type } from './Type';
 export { default as Direction } from './Direction';
+export { default as Locator } from './Locator';
 
 export default CardArea;

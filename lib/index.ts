@@ -10,6 +10,7 @@ export {
 	default as CardArea,
 	Type as CardAreaType,
 	Direction as CardAreaDirection,
+	Locator as CardAreaLocator,
 } from './CardArea';
 
 export {
