@@ -33,6 +33,8 @@ export {
 
 export { default as CardUseStruct } from './CardUseStruct';
 
+export { default as CardExpenseStruct } from './CardExpenseStruct';
+
 export { default as Command } from './Command';
 
 export { default as DamageType } from './DamageType';
