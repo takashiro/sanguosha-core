@@ -1,6 +1,7 @@
 
 export {
 	default as Card,
+	CardMeta,
 	Color as CardColor,
 	Suit as CardSuit,
 	Type as CardType,

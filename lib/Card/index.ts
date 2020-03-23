@@ -3,7 +3,7 @@ import Suit from './Suit';
 import Color from './Color';
 import Type from './Type';
 
-interface CardMeta {
+export interface CardMeta {
 	id: number;
 	name: string;
 	suit: number;
