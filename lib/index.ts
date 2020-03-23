@@ -37,6 +37,8 @@ export { default as CardExpenseStruct } from './CardExpenseStruct';
 
 export { default as Command } from './Command';
 
+export { default as DamageStruct } from './DamageStruct';
+
 export { default as DamageType } from './DamageType';
 
 export { default as Gender } from './Gender';
