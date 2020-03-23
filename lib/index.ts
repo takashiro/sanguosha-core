@@ -31,6 +31,8 @@ export {
 	Type as SkillAreaType,
 } from './SkillArea';
 
+export { default as CardUseStruct } from './CardUseStruct';
+
 export { default as Command } from './Command';
 
 export { default as DamageType } from './DamageType';
