@@ -12,6 +12,7 @@ const enum Command {
 	Play,
 	ChoosePlayer,
 	UseCard,
+	ExpendCard,
 }
 
 export default Command;
