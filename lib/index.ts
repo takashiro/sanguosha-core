@@ -50,3 +50,5 @@ export { default as General } from './General';
 export { default as GeneralProfile } from './GeneralProfile';
 
 export { default as Kingdom } from './Kingdom';
+
+export { default as RecoverStruct } from './RecoverStruct';
