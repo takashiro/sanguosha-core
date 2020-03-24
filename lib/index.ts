@@ -31,6 +31,8 @@ export {
 	Type as SkillAreaType,
 } from './SkillArea';
 
+export { default as CardDrawStruct } from './CardDrawStruct';
+
 export { default as CardUseStruct } from './CardUseStruct';
 
 export { default as CardExpenseStruct } from './CardExpenseStruct';
