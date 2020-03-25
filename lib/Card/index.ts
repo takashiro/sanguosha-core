@@ -2,6 +2,7 @@
 import Suit from './Suit';
 import Color from './Color';
 import Type from './Type';
+import Subtype from './Subtype';
 
 export interface CardMeta {
 	id: number;
@@ -88,6 +89,11 @@ abstract class Card {
 	abstract getType(): Type;
 
 	/**
+	 * @return Card subtype
+	 */
+	abstract getSubtype(): Subtype;
+
+	/**
 	 * @return Check if this is a real card
 	 */
 	isReal(): boolean {
@@ -110,5 +116,6 @@ abstract class Card {
 export { default as Color } from './Color';
 export { default as Suit } from './Suit';
 export { default as Type } from './Type';
+export { default as Subtype } from './Subtype';
 
 export default Card;

@@ -5,6 +5,7 @@ export {
 	Color as CardColor,
 	Suit as CardSuit,
 	Type as CardType,
+	Subtype as CardSubtype,
 } from './Card';
 
 export {
