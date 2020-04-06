@@ -3,7 +3,7 @@ import Kingdom from './Kingdom';
 import GeneralPofile from './GeneralProfile';
 import Skill from './Skill';
 
-type SkillClass = new()=> Skill;
+type SkillClass = new() => Skill;
 
 class General {
 	protected id: number;
