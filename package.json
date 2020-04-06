@@ -1,6 +1,6 @@
 {
   "name": "@karuta/sanguosha-core",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Core modules of Sanguosha Extension",
   "main": "dist/index.js",
   "scripts": {
