@@ -107,7 +107,6 @@ class General {
 			id: this.getId(),
 			kingdom: this.getKingdom(),
 			name: this.getName(),
-			gender: this.getGender(),
 		};
 	}
 }

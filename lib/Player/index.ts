@@ -1,5 +1,6 @@
 import Kingdom from '../Kingdom';
 import General from '../General';
+import Gender from '../Gender';
 import Phase from './Phase';
 import Role from './Role';
 
@@ -7,6 +8,8 @@ class Player {
 	protected hp: number;
 
 	protected maxHp: number;
+
+	protected gender: Gender;
 
 	protected alive: boolean;
 
@@ -29,6 +32,7 @@ class Player {
 	constructor() {
 		this.hp = 0;
 		this.maxHp = 0;
+		this.gender = Gender.Unknown;
 		this.alive = true;
 		this.dying = false;
 
@@ -57,6 +61,14 @@ class Player {
 
 	setMaxHp(maxHp: number): void {
 		this.maxHp = maxHp;
+	}
+
+	getGender(): Gender {
+		return this.gender;
+	}
+
+	setGender(gender: Gender): void {
+		this.gender = gender;
 	}
 
 	getLostHp(): number {
