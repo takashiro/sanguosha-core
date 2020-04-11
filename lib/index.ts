@@ -38,6 +38,8 @@ export { default as CardUseStruct } from './CardUseStruct';
 
 export { default as CardExpenseStruct } from './CardExpenseStruct';
 
+export { default as CardMoveStruct } from './CardMoveStruct';
+
 export { default as Command } from './Command';
 
 export { default as DamageStruct } from './DamageStruct';
