@@ -1,8 +1,9 @@
 import Type from './Type';
 
 interface Locator {
-	owner: number;
 	type: Type;
+	owner?: number;
+	name?: string;
 }
 
 export default Locator;

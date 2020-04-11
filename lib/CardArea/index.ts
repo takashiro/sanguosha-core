@@ -1,15 +1,10 @@
 
 import Type from './Type';
 import Direction from './Direction';
+import Locator from './Locator';
 
 import Player from '../Player';
 import Card from '../Card';
-
-interface CardAreaProfile {
-	type: number;
-	owner?: number;
-	name?: string;
-}
 
 type SearchCondition = (card: Card) => boolean;
 
@@ -200,8 +195,8 @@ class CardArea {
 	/**
 	 * Convert this area (without cards) into JSON
 	 */
-	toJSON(): CardAreaProfile {
-		const json: CardAreaProfile = {
+	toJSON(): Locator {
+		const json: Locator = {
 			type: this.type,
 		};
 		if (this.owner) {
