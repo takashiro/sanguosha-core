@@ -13,6 +13,8 @@ const enum Command {
 	ChoosePlayer,
 	UseCard,
 	ExpendCard,
+	Damage,
+	Recover,
 }
 
 export default Command;
