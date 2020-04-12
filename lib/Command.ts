@@ -15,6 +15,7 @@ const enum Command {
 	ExpendCard,
 	Damage,
 	Recover,
+	Judge,
 }
 
 export default Command;
