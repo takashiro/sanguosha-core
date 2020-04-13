@@ -1,7 +1,7 @@
 import { CardMeta } from './Card';
 
 interface RecoverStruct {
-	from: number;
+	from?: number;
 
 	to: number;
 
