@@ -34,6 +34,8 @@ export {
 
 export { default as CardDrawStruct } from './CardDrawStruct';
 
+export { default as CardOptionStruct } from './CardOptionStruct';
+
 export { default as CardUseStruct } from './CardUseStruct';
 
 export { default as CardExpenseStruct } from './CardExpenseStruct';
