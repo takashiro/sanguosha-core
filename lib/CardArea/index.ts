@@ -17,6 +17,8 @@ class CardArea {
 
 	protected cards: Card[];
 
+	protected open: boolean;
+
 	/**
 	 * @param type
 	 * @param owner
@@ -28,6 +30,7 @@ class CardArea {
 		this.name = name;
 
 		this.cards = [];
+		this.open = true;
 	}
 
 	/**
@@ -49,6 +52,21 @@ class CardArea {
 	 */
 	getName(): string {
 		return this.name;
+	}
+
+	/**
+	 * Make the area open to everyone or not
+	 * @param open Whether open to everyone
+	 */
+	setOpen(open: boolean): void {
+		this.open = open;
+	}
+
+	/**
+	 * Whether the area is open to everyone
+	 */
+	isOpen(): boolean {
+		return this.open;
 	}
 
 	/**
