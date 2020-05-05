@@ -1,7 +1,7 @@
 /.github/
 /.vscode
 /build/
-/lib/
+/src/
 /test/
 /jest.config.js
 /webpack.config.js

@@ -1,6 +1,6 @@
 
-import Skill from '../lib/Skill';
-import SkillArea, { Type } from '../lib/SkillArea';
+import Skill from '../src/Skill';
+import SkillArea, { Type } from '../src/SkillArea';
 
 describe('SkillArea', () => {
 	const area = new SkillArea(Type.HeadAcquired);

@@ -1,4 +1,4 @@
-import Card, { Suit, Color } from '../lib/Card';
+import Card, { Suit, Color } from '../src/Card';
 
 class TestCard extends Card {
 }

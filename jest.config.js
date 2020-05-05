@@ -6,7 +6,7 @@ module.exports = {
 	},
 	collectCoverage: true,
 	collectCoverageFrom: [
-		'lib/**/*.ts',
+		'./src/**/*.ts',
 	],
 	coverageDirectory: 'build',
 };
