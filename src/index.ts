@@ -61,3 +61,5 @@ export { default as Kingdom } from './Kingdom';
 export { default as RecoverStruct } from './RecoverStruct';
 
 export { default as SkillChangeStruct } from './SkillChangeStruct';
+
+export { default as SkillEffectStruct } from './SkillEffectStruct';

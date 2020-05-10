@@ -18,6 +18,7 @@ const enum Command {
 	Judge,
 	AddSkill,
 	RemoveSkill,
+	InvokeSkill,
 }
 
 export default Command;
