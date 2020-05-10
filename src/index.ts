@@ -59,3 +59,5 @@ export { default as JudgementStruct } from './JudgementStruct';
 export { default as Kingdom } from './Kingdom';
 
 export { default as RecoverStruct } from './RecoverStruct';
+
+export { default as SkillChangeStruct } from './SkillChangeStruct';

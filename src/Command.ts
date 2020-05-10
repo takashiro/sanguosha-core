@@ -16,6 +16,8 @@ const enum Command {
 	Damage,
 	Recover,
 	Judge,
+	AddSkill,
+	RemoveSkill,
 }
 
 export default Command;

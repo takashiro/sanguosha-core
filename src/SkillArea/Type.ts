@@ -1,4 +1,4 @@
-enum Type {
+const enum Type {
 	Unknown,
 	Head,
 	Deputy,
