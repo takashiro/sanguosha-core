@@ -3,7 +3,7 @@ const enum Type {
 	Invalid,
 
 	Passive,
-	Active,
+	Proactive,
 }
 
 export default Type;
