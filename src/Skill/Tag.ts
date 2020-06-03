@@ -2,8 +2,8 @@
 const enum Tag {
 	Invalid,
 
-	Frequent,
 	Compulsory,
+	Lord,
 	Limited,
 	Wake,
 }
