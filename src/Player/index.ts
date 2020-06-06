@@ -4,6 +4,10 @@ import Gender from '../Gender';
 import Phase from './Phase';
 import Role from './Role';
 
+function notEmpty<Type>(value: Type | null | undefined): value is Type {
+	return Boolean(value);
+}
+
 class Player {
 	protected hp: number;
 
@@ -133,6 +137,14 @@ class Player {
 
 	setKingdom(kingdom: Kingdom): void {
 		this.kingdom = kingdom;
+	}
+
+	getGenerals(): General[] {
+		const generals = [
+			this.headGeneral,
+			this.deputyGeneral,
+		];
+		return generals.filter(notEmpty);
 	}
 
 	getGeneral(): General | null {
