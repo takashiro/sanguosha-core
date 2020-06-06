@@ -9,13 +9,10 @@ class Skill {
 
 	protected tags: Set<Tag>;
 
-	protected children: Skill[];
-
 	constructor(name: string, tags: Tag[] = []) {
 		this.name = name;
 		this.type = Type.Invalid;
 		this.tags = new Set(tags);
-		this.children = [];
 	}
 
 	getName(): string {
@@ -28,10 +25,6 @@ class Skill {
 
 	hasTag(tag: Tag): boolean {
 		return this.tags.has(tag);
-	}
-
-	getChildren(): Skill[] {
-		return this.children;
 	}
 }
 
