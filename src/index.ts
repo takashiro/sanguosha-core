@@ -16,6 +16,11 @@ export {
 } from './CardArea';
 
 export {
+	default as General,
+	Profile as GeneralProfile,
+} from './General';
+
+export {
 	default as Player,
 	Phase as PlayerPhase,
 	Role as PlayerRole,
@@ -49,10 +54,6 @@ export { default as DamageStruct } from './DamageStruct';
 export { default as DamageType } from './DamageType';
 
 export { default as Gender } from './Gender';
-
-export { default as General } from './General';
-
-export { default as GeneralProfile } from './GeneralProfile';
 
 export { default as JudgementStruct } from './JudgementStruct';
 

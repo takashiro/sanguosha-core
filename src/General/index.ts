@@ -1,7 +1,8 @@
-import Gender from './Gender';
-import Kingdom from './Kingdom';
-import GeneralPofile from './GeneralProfile';
-import Skill from './Skill';
+import Gender from '../Gender';
+import Kingdom from '../Kingdom';
+import Skill from '../Skill';
+
+import Profile from './Profile';
 
 type SkillClass = new() => Skill;
 
@@ -102,7 +103,7 @@ class General {
 		return this.skills;
 	}
 
-	toJSON(): GeneralPofile {
+	toJSON(): Profile {
 		return {
 			id: this.getId(),
 			kingdom: this.getKingdom(),
@@ -110,5 +111,7 @@ class General {
 		};
 	}
 }
+
+export { default as Profile } from './Profile';
 
 export default General;
