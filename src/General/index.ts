@@ -1,10 +1,10 @@
 import Gender from '../Gender';
 import Kingdom from '../Kingdom';
-import Skill from '../Skill';
+import Skill, { Owner as SkillOwner } from '../Skill';
 
 import Profile from './Profile';
 
-type SkillClass = new() => Skill;
+type SkillCreator = new(owner: SkillOwner) => Skill;
 
 class General {
 	protected id: number;
@@ -27,7 +27,7 @@ class General {
 
 	protected companions: Set<string>;
 
-	protected skills: SkillClass[];
+	protected skills: SkillCreator[];
 
 	constructor(name: string, kingdom: Kingdom, maxHp: number, gender: Gender) {
 		this.id = 0;
@@ -95,11 +95,11 @@ class General {
 		return this.companions.has(general.getName());
 	}
 
-	addSkill(skillClass: SkillClass): void {
+	addSkill(skillClass: SkillCreator): void {
 		this.skills.push(skillClass);
 	}
 
-	getSkills(): SkillClass[] {
+	getSkills(): SkillCreator[] {
 		return this.skills;
 	}
 

@@ -27,6 +27,7 @@ export {
 
 export {
 	default as Skill,
+	Owner as SkillOwner,
 	Tag as SkillTag,
 	Type as SkillType,
 } from './Skill';
