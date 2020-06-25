@@ -1,4 +1,4 @@
-Sanguosha Core [![Build Status](https://www.travis-ci.org/takashiro/sanguosha-core.svg?branch=dev)](https://www.travis-ci.org/takashiro/sanguosha-core)
+Sanguosha Core ![Node CI](https://github.com/takashiro/sanguosha-core/workflows/Node%20CI/badge.svg) [![Build Status](https://www.travis-ci.org/takashiro/sanguosha-core.svg?branch=dev)](https://www.travis-ci.org/takashiro/sanguosha-core)
 ==========
 
 | Example Page |  http://sgs.takashiro.cn     |
