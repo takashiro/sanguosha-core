@@ -1,4 +1,3 @@
-
 import Suit from './Suit';
 import Color from './Color';
 import Type from './Type';

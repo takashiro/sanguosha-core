@@ -1,4 +1,3 @@
-
 const enum Tag {
 	Invalid,
 

@@ -1,4 +1,3 @@
-
 import Type from './Type';
 import Direction from './Direction';
 import Locator from './Locator';

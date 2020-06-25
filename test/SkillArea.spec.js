@@ -1,4 +1,3 @@
-
 import Skill from '../src/Skill';
 import SkillArea, { Type } from '../src/SkillArea';
 

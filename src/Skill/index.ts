@@ -1,4 +1,3 @@
-
 import Tag from './Tag';
 import Type from './Type';
 

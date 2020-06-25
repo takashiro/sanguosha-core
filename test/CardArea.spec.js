@@ -1,4 +1,3 @@
-
 import CardArea, { Type, Direction } from '../src/CardArea';
 
 describe('CardArea', () => {

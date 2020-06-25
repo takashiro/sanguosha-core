@@ -1,4 +1,3 @@
-
 const enum Type {
 	Unknown,
 

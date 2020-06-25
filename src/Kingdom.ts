@@ -1,4 +1,3 @@
-
 enum Kingdom {
 	Unknown,
 

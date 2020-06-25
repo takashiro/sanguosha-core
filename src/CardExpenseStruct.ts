@@ -5,5 +5,4 @@ interface CardExpenseStruct {
 	card: CardMeta;
 }
 
-
 export default CardExpenseStruct;
