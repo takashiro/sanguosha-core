@@ -1,5 +1,5 @@
 import Kingdom from '../../base/Kingdom';
-import General from '../../General';
+import General from '../../gift/General';
 import Gender from '../../base/Gender';
 import Phase from './Phase';
 import Role from './Role';
