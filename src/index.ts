@@ -47,17 +47,17 @@ export { default as CardExpenseStruct } from './CardExpenseStruct';
 
 export { default as CardMoveStruct } from './CardMoveStruct';
 
-export { default as Command } from './Command';
+export { default as Command } from './base/Command';
 
 export { default as DamageStruct } from './DamageStruct';
 
-export { default as DamageType } from './DamageType';
+export { default as DamageType } from './base/DamageType';
 
-export { default as Gender } from './Gender';
+export { default as Gender } from './base/Gender';
 
 export { default as JudgementStruct } from './JudgementStruct';
 
-export { default as Kingdom } from './Kingdom';
+export { default as Kingdom } from './base/Kingdom';
 
 export { default as RecoverStruct } from './RecoverStruct';
 

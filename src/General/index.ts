@@ -1,5 +1,5 @@
-import Gender from '../Gender';
-import Kingdom from '../Kingdom';
+import Gender from '../base/Gender';
+import Kingdom from '../base/Kingdom';
 import Skill, { Owner as SkillOwner } from '../Skill';
 
 import Profile from './Profile';

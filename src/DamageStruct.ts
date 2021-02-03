@@ -1,4 +1,4 @@
-import DamageType from './DamageType';
+import DamageType from './base/DamageType';
 
 interface DamageStruct {
 	from?: number;
