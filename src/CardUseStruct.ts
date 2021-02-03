@@ -1,4 +1,4 @@
-import { CardMeta } from './Card';
+import { CardMeta } from './board/Card';
 
 interface CardUseStruct {
 	from: number;

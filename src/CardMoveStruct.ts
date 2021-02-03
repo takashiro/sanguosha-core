@@ -1,5 +1,5 @@
-import { CardMeta } from './Card';
-import CardArea from './CardArea/Locator';
+import { CardMeta } from './board/Card';
+import CardArea from './board/CardArea/Locator';
 
 interface CardMoveStruct {
 	from: CardArea;

@@ -5,14 +5,14 @@ export {
 	Suit as CardSuit,
 	Type as CardType,
 	Subtype as CardSubtype,
-} from './Card';
+} from './board/Card';
 
 export {
 	default as CardArea,
 	Type as CardAreaType,
 	Direction as CardAreaDirection,
 	Locator as CardAreaLocator,
-} from './CardArea';
+} from './board/CardArea';
 
 export {
 	default as General,
@@ -23,7 +23,7 @@ export {
 	default as Player,
 	Phase as PlayerPhase,
 	Role as PlayerRole,
-} from './Player';
+} from './board/Player';
 
 export {
 	default as Skill,
