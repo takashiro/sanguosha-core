@@ -1,4 +1,4 @@
-import AreaLocator from './board/CardArea/Locator';
+import AreaLocator from '../board/CardArea/Locator';
 
 interface CardOptionStruct {
 	areas: AreaLocator[];

@@ -1,4 +1,4 @@
-import SkillAreaType from './gift/SkillArea/Type';
+import SkillAreaType from '../gift/SkillArea/Type';
 
 interface SkillChangeStruct {
 	name: string;
