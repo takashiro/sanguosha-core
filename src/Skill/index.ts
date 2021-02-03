@@ -2,7 +2,7 @@ import Tag from './Tag';
 import Type from './Type';
 
 export interface Owner {
-	hasSkill(skill: Skill): boolean;
+	hasSkill(skill: unknown): boolean;
 }
 
 class Skill {

@@ -1,4 +1,4 @@
-Sanguosha Core ![Node CI](https://github.com/takashiro/sanguosha-core/workflows/Node%20CI/badge.svg) [![Build Status](https://www.travis-ci.org/takashiro/sanguosha-core.svg?branch=dev)](https://www.travis-ci.org/takashiro/sanguosha-core)
+Sanguosha Core ![Node.js CI](https://github.com/takashiro/sanguosha-core/workflows/Node.js%20CI/badge.svg)
 ==========
 
 | Example Page |  http://sgs.takashiro.cn     |
@@ -29,7 +29,7 @@ This is the core module shared between GUI client application and server applica
 
 Running Environment
 -------------------
-1. Node.js v10 or later versions
+1. Node.js v12 or later versions
 
 Dependent Projects
 1. [sanguosha-server](https://github.com/takashiro/sanguosha-server)
