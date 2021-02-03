@@ -1,4 +1,4 @@
-import CardArea, { Type, Direction } from '../src/CardArea';
+import CardArea, { Type, Direction } from '../src/board/CardArea';
 
 describe('CardArea', () => {
 	const area = new CardArea(Type.DrawPile);

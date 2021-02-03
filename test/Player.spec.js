@@ -1,4 +1,4 @@
-import Player from '../src/Player';
+import Player from '../src/board/Player';
 
 describe('Player', () => {
 	const player = new Player();

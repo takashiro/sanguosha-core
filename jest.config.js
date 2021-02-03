@@ -1,12 +1,14 @@
 module.exports = {
-	preset: 'ts-jest',
+	preset: 'ts-jest/presets/js-with-ts',
 	testEnvironment: 'node',
-	transform: {
-		'\\.js$': 'ts-jest',
+	globals: {
+		'ts-jest': {
+			tsconfig: 'test/tsconfig.json',
+		},
 	},
 	collectCoverage: true,
 	collectCoverageFrom: [
-		'./src/**/*.ts',
+		'src/**/*.ts',
 	],
 	coverageDirectory: 'build',
 };
