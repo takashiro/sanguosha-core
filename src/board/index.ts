@@ -19,3 +19,5 @@ export {
 	Phase as PlayerPhase,
 	Role as PlayerRole,
 } from './Player';
+
+export { default as GameConfig } from './GameConfig';
