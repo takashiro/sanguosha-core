@@ -10,7 +10,7 @@ type SearchCondition = (card: Card) => boolean;
 class CardArea {
 	protected type: Type;
 
-	protected owner: Player | null;
+	protected owner?: Player;
 
 	protected name: string;
 
@@ -23,10 +23,10 @@ class CardArea {
 	 * @param owner
 	 * @param name
 	 */
-	constructor(type: Type, owner: Player | null = null, name = '') {
+	constructor(type: Type, owner?: Player, name?: string) {
 		this.type = type;
 		this.owner = owner;
-		this.name = name;
+		this.name = name || '';
 
 		this.cards = [];
 		this.open = true;
@@ -42,7 +42,7 @@ class CardArea {
 	/**
 	 * Gets area owner
 	 */
-	getOwner(): Player | null {
+	getOwner(): Player | undefined {
 		return this.owner;
 	}
 

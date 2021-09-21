@@ -9,47 +9,29 @@ function notEmpty<Type>(value: Type | null | undefined): value is Type {
 }
 
 class Player {
-	protected hp: number;
+	protected hp = 0;
 
-	protected maxHp: number;
+	protected maxHp = 0;
 
-	protected gender: Gender;
+	protected gender = Gender.Unknown;
 
-	protected alive: boolean;
+	protected alive = true;
 
-	protected dying: boolean;
+	protected dying = false;
 
-	protected seat: number;
+	protected seat = 0;
 
-	protected phase: Phase;
+	protected phase = Phase.Inactive;
 
-	protected role: Role;
+	protected role = Role.Invalid;
 
-	protected kingdom: Kingdom;
+	protected kingdom = Kingdom.Unknown;
 
-	protected headGeneral: General | null;
+	protected headGeneral?: General;
 
-	protected deputyGeneral: General | null;
+	protected deputyGeneral?: General;
 
-	protected attackRange: number;
-
-	constructor() {
-		this.hp = 0;
-		this.maxHp = 0;
-		this.gender = Gender.Unknown;
-		this.alive = true;
-		this.dying = false;
-
-		this.seat = 0;
-		this.phase = 0;
-
-		this.role = 0;
-		this.kingdom = 0;
-		this.headGeneral = null;
-		this.deputyGeneral = null;
-
-		this.attackRange = 1;
-	}
+	protected attackRange = 1;
 
 	getHp(): number {
 		return this.hp;
@@ -147,23 +129,23 @@ class Player {
 		return generals.filter(notEmpty);
 	}
 
-	getGeneral(): General | null {
+	getGeneral(): General | undefined {
 		return this.headGeneral;
 	}
 
-	setGeneral(general: General | null): void {
+	setGeneral(general: General | undefined): void {
 		this.headGeneral = general;
 	}
 
-	getHeadGeneral(): General | null {
+	getHeadGeneral(): General | undefined {
 		return this.headGeneral;
 	}
 
-	setHeadGeneral(general: General | null): void {
+	setHeadGeneral(general: General | undefined): void {
 		this.headGeneral = general;
 	}
 
-	getDeputyGeneral(): General | null {
+	getDeputyGeneral(): General | undefined {
 		return this.deputyGeneral;
 	}
 
