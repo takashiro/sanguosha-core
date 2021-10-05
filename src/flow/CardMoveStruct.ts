@@ -1,11 +1,18 @@
-import { CardMeta } from '../board/Card';
 import CardArea from '../board/CardArea/Locator';
 
-interface CardMoveStruct {
+interface Move {
 	from: CardArea;
 	to: CardArea;
-	cards?: CardMeta[];
-	cardNum?: number;
 }
+
+interface VisibleMove extends Move {
+	cards: number[];
+}
+
+interface HiddenMove extends Move {
+	cardNum: number;
+}
+
+type CardMoveStruct = VisibleMove | HiddenMove;
 
 export default CardMoveStruct;
