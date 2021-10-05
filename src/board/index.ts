@@ -21,3 +21,8 @@ export {
 } from './Player';
 
 export { default as GameConfig } from './GameConfig';
+
+export {
+	ReplyType,
+	default as Reply,
+} from './Reply';
