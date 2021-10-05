@@ -2,15 +2,20 @@ const enum Context {
 	Invalid,
 
 	Game,
+
 	Player,
 	Players,
 	General,
-	CardLocation,
+
+	Card,
+	CardMove,
+	CardUse,
+	CardExpense,
+
 	Play,
 	CardSelection,
 	PlayerSelection,
-	CardUse,
-	CardExpense,
+
 	Damage,
 	Recover,
 	Judge,
